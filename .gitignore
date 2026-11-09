@@ -1,0 +1,25 @@
+# Build output (the installer goes to GitHub Releases, not into the repository)
+Aplikasi/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Never upload student data: spreadsheets, CSV exports, photos, generated merge files
+hasil_merge/
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.psd
+*.webp
+*_merge.txt
+
+# Local settings / scratch
+settings.json
+selftest_hasil/
